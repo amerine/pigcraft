@@ -11,6 +11,5 @@ public final class PigCraftItems {
 
     public static void init() {
         pigSword = new PigSword();
-
     }
 }
