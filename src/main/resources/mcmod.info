@@ -1,0 +1,16 @@
+[
+{
+  "modid": "pigcraft",
+  "name": "PigCraft",
+  "description": "All Things Pig",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://mc.eristurner.com",
+  "updateUrl": "",
+  "authorList": ["Mark Turner", "Eris Turner"],
+  "credits": "Special thanks to Jeran and Io for letting us explore MC so much. We love you guys.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
