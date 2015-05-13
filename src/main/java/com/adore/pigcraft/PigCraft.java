@@ -2,6 +2,7 @@ package com.adore.pigcraft;
 
 import com.adore.pigcraft.items.PigCraftItems;
 import com.adore.pigcraft.lib.Constants;
+import com.adore.pigcraft.recipes.PigCraftRecipes;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
@@ -23,5 +24,6 @@ public class PigCraft {
 
     @Mod.EventHandler
     public void postInit(FMLInitializationEvent event) {
+        PigCraftRecipes.init();
     }
 }

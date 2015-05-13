@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
  */
 public class PigSword extends ItemSword {
 
-    public String name = "pigsword";
+    public static String name = "pigsword";
     public static ToolMaterial PigSwordMaterial = EnumHelper.addToolMaterial("PigSwordMaterial", 0, 99999, 1.0F, 1000.0F, 100);
     public static ModelResourceLocation PigSwordResourceLocation = new ModelResourceLocation("pigcraft:pigsword", "inventory");
 
